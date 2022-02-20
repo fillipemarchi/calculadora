@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*background-color: #202020;*/
+    background-image: linear-gradient(#202020, whitesmoke, #202020);
+    height: 80vh;
+    font-family: 'Shizuru', sans-serif;
+    color: whitesmoke;
+}
+
+h1 {
+    color: #f2f2f2;
+    margin-bottom: 2rem;
+    font-size: 1.8em;
+    text-align: center;
+}
+
+span {
+    font-family: 'Shizuru', san;
+    font-size: 1rem;
+    font-weight: normal;
+    vertical-align: super;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 2px;
+    border-radius: 4px;
+}
+
+#display {
+    width: 200px;
+    height: 100px;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    text-align: end;
+    padding: 20px;
+    font-size: 22pt;
+    font-weight: bolder;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.buttons {
+    padding: 1rem;
+    background-color: #f2f2f2;
+    margin-top: -20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.panda {
+    text-shadow: 0.1em 0.1em 0.2em gold;
+}
+.titulo {
+    color: #202020;
+    text-shadow: 0.1em 0.1em 0.2em whitesmoke;
+    margin-top: -30px;
+}
+.titulo:hover {
+color: whitesmoke;
+text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+.fourth {
+    margin-bottom: 0;
+}
+
+.button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: lightgrey;
+    color: #2c2c2c;
+    border: none;
+    font-weight: bolder;
+    font-family: 'Titillium Web', sans-serif;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: grey;
+    color: #f2f2f2;
+    transition: .2s;
+}
+
+.button-clear {
+    font-family: 'Rubik', sans-serif;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 300px;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 35px;
+}
+
+.button-clear:hover{
+    box-shadow: 0 0 1em white;
+    font-weight: bolder;
+    
+}
+.equal {
+    background-color: darkred;
+    color: #f2f2f2;    
+}
+
+.equal:hover{
+    background-color: red;
+    transition: .2s;
+}
